@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Tselevik.App">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary Source="Themes/LightTheme.xaml" />
+            
+            <!--Global Styles-->
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{DynamicResource NavigationBarColor}" />
+                <Setter Property="BarTextColor" Value="{DynamicResource SecondaryColor}" />
+            </Style>
+
+            
+            <Color x:Key="TextColor">#F5F5DC</Color>
+            <Color x:Key="HeaderTextColor">#F5F5DC</Color>
+            <Color x:Key="HeaderBackgroundColor">transparent</Color>
+            <Color x:Key="ItemColor">#87CEFA</Color>
+            <x:Double x:Key="HeaderFontSize">20</x:Double>
+
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource HeaderTextColor}" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource HeaderBackgroundColor}" />
+                <Setter Property="FontSize" Value="{DynamicResource HeaderFontSize}" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+    
+</Application>
