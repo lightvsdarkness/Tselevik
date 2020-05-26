@@ -18,7 +18,7 @@
 
             
             <Color x:Key="TextColor">#F5F5DC</Color>
-            <Color x:Key="HeaderTextColor">#F5F5DC</Color>
+            
             <Color x:Key="HeaderBackgroundColor">transparent</Color>
             <Color x:Key="ItemColor">#87CEFA</Color>
             <x:Double x:Key="HeaderFontSize">20</x:Double>

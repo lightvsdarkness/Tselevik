@@ -9,4 +9,6 @@
     <Color x:Key="SecondaryTextColor">White</Color>
     <Color x:Key="TertiaryTextColor">WhiteSmoke</Color>
     <Color x:Key="TransparentColor">Transparent</Color>
+
+    <Color x:Key="HeaderTextColor">#F5F5DC</Color>
 </ResourceDictionary>
