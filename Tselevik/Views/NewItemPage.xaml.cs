@@ -5,6 +5,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using Tselevik.Models;
+using Tselevik.ViewModels;
 
 namespace Tselevik.Views
 {
@@ -14,13 +15,18 @@ namespace Tselevik.Views
     public partial class NewItemPage : ContentPage
     {
         public Item Item { get; set; }
-        
-        public NewItemPage()
+        ItemsViewModel _itemsViewModel;
+
+
+        public NewItemPage(ItemsViewModel itemsViewModel)
         {
             InitializeComponent();
 
+            _itemsViewModel = itemsViewModel;
+            int CurrentMaxId = _itemsViewModel.GetCurrentMaxId();
             Item = new Item
             {
+                Id = CurrentMaxId + 1,
                 Text = "Task name",
                 Description = "Task description"
             };

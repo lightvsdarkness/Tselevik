@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "472456142522",
+    "firebase_url": "https://apptselevik.firebaseio.com",
+    "project_id": "apptselevik",
+    "storage_bucket": "apptselevik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472456142522:android:fb0f87544ed01b19336c83",
+        "android_client_info": {
+          "package_name": "com.companyname.tselevik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472456142522-2919bn0hdb4f0a526pdbuap80adm6cuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF6xNduVI-xcKCEbNFf8ddDB_hTqf0tAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472456142522-2919bn0hdb4f0a526pdbuap80adm6cuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

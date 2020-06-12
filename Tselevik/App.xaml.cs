@@ -13,7 +13,7 @@ namespace Tselevik
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
+            DependencyService.Register<FirebaseDataStore>();
             MainPage = new MainPage();
         }
 

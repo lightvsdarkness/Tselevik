@@ -27,6 +27,7 @@
                 <Setter Property="TextColor" Value="{DynamicResource HeaderTextColor}" />
                 <Setter Property="BackgroundColor" Value="{DynamicResource HeaderBackgroundColor}" />
                 <Setter Property="FontSize" Value="{DynamicResource HeaderFontSize}" />
+                <Setter Property="FontFamily" Value="zekton-rg-regular" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>

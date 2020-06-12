@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Linq;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
@@ -61,6 +62,15 @@ namespace Tselevik.ViewModels
             {
                 IsBusy = false;
             }
+        }
+
+        public int GetCurrentMaxId()
+        {
+            int maxId = 0;
+            if (Items.Count > 0)
+                maxId = Items.Max(x => x.Id);
+            Debug.WriteLine("maxId: " + maxId);
+            return maxId;
         }
     }
 }
